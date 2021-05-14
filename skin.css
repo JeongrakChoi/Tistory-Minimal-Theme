@@ -1,0 +1,198 @@
+#@charset "utf-8";
+
+/* º»¹® °øÅë */
+html,body{width:100%}
+html{overflow-y:scroll; -webkit-text-size-adjust:100%}
+li{list-style:none}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0; padding:0}
+img{border:0; margin:0}
+body{font:12px/1.5 "¸¼Àº °íµñ", "Malgun Gothic", "³ª´®°íµñ", NanumGothic, "µ¸¿ò", dotum, "Georgia Pro", Arial; color:#666; margin: 0; padding: 0;}
+a:link{color:#666; text-decoration:none;}
+a:visited{color:#666; text-decoration:none;}
+a:hover{color:#666; text-decoration:underline;}
+a:active{color:#666; text-decoration:none;}
+.tistorytoolbar{display:none} /*Åø¹Ù Á¦°Å */
+input,button{font-family:"¸¼Àº °íµñ", "Malgun Gothic", "³ª´®°íµñ", NanumGothic, "µ¸¿ò", dotum, "Georgia Pro", Arial;}
+.article p,span{font-family: "¸¼Àº °íµñ", "Malgun Gothic", "³ª´®°íµñ", NanumGothic, "µ¸¿ò", dotum, "Georgia Pro", Arial !important}
+
+/* ·¹ÀÌ¾Æ¿ô */
+#container{width:1080px; margin:0 auto; margin-top:100px; overflow:hidden}
+#header{height:40px; margin-bottom:10px; position:relative; border-bottom:1px solid #dcdcdc}
+#sidebar{width:180px; padding:10px 0; float:left}
+#content{width:865px; float:left; margin-left:35px; margin-top:10px; margin-bottom:10px}
+#footer{clear:both; border-top:1px solid #dcdcdc; position:relative; padding:0; height:50px; line-height:50px}
+
+#header h1{display:none}
+.mainMenu{position:absolute; left:0; bottom:5px; font-size:11px}
+.search input{width:200px; position:absolute; right:30px; bottom:5px; border:0; border-bottom:1px solid #dcdcdc}
+.search .search_btn{width:20px; position:absolute; right:0; bottom:5px; cursor:pointer}
+.mainMenu ul li{display:inline}
+.subMenu ul li{display:inline}
+
+.blogImage img{width:180px}
+.blogDesc{padding:10px 37px; text-align:center}
+
+.searchList .date{display:inline-block; width:70px}
+
+#footer .adminMenu{position:absolute; right:0}
+#footer .adminMenu ul li{display:inline}
+
+div#ttCanvas div.tt-panel{padding:0 !important}
+div#ttCanvas #ttItem7533{padding:0 !important}
+
+.tt-wrap-item-post{text-align:right}
+
+.category h3{padding:5px 0; border-bottom:1px solid #dcdcdc}
+.links h3{padding:5px 0; border-bottom:1px solid #dcdcdc}
+.tagbox h3{padding:5px 0; border-bottom:1px solid #dcdcdc}
+.recentPost h3{padding:5px 0; border-bottom:1px solid #dcdcdc}
+.recentComment h3{padding:5px 0; border-bottom:1px solid #dcdcdc}
+
+.links ul{padding:5px 0; padding-top:10px}
+.links ul li{float:left; margin-right:17px}
+
+.links ul li a img:hover{transition:none; transform:scale(1.1); -webkit-transition:1s none; -webkit-transform:scale(1.1);}
+
+#treeComponent{padding:5px 0}
+.recentPost ul{padding:5px 0}
+.recentComment ul{padding:5px 0}
+
+body.tistory_grid_840 div#ttCanvas .tt-span-12{width:100% !important}
+div#ttCanvas{margin:0; float:right}
+
+body.tistory_grid_840 div#ttCanvas .tt-span-12{text-align:right}
+div#ttCanvas #ttItem8572{padding:0 !important; margin-top:30px !important}
+
+#treeComponent a{cursor:pointer}
+#treeComponent div{cursor:pointer}
+#treeComponent table:hover{text-decoration:underline}
+
+.copy{float:left}
+.counter{float:right}
+.counter .total{margin-right:5px}
+.copy a:hover{text-decoration:none; color:#64a7e3}
+
+#ttItem8572{text-align:right}
+.info_wrap{float:right}
+
+.titleWrap{text-align:right; border-bottom:1px solid #dcdcdc; border-top:1px solid #dcdcdc; padding:15px 0}
+.titleWrap .category{display:inline; margin-right:5px}
+.titleWrap .date{display:inline}
+
+.paging{text-align:center}
+.tagTrail{text-align:right}
+.tagTrail span{font-weight:bold}
+
+.actionTrail{text-align:right; margin-bottom:25px}
+.actionTrail span{font-weight:bold}
+.actionTrail span.cnt{font-weight:normal}
+
+.control a{font-size:11px}
+.blogName{margin-top:5px}
+.rp_admin{padding:10px 0; border-bottom:1px dashed #dcdcdc; text-align:right}
+.rp_admin span{vertical-align:middle}
+.rp_admin .name{margin-right:5px; font-weight:bold;}
+.rp_admin .control{display:block; margin-top:5px}
+.rp_admin .control a{display:inline-block; *display:inline; *zoom:1; padding:0 5px; border:1px solid #dcdcdc; border-radius:3px}
+.rp_admin .control a span{vertical-align:top}
+.rp_admin .control a:hover{text-decoration:none}
+.rp_admin p{margin-top:10px}
+
+.commentWrite{padding:10px 0; }
+.commentWrite textarea{border:1px solid #dcdcdc; width:100%; height:75px; margin-bottom:5px; box-sizing:border-box; font-family:"¸¼Àº °íµñ", "Malgun Gothic", "³ª´®°íµñ", NanumGothic, "µ¸¿ò", dotum, "Georgia Pro", Arial; color:#666}
+
+.rp_general{padding:10px 0; border-bottom:1px dashed #dcdcdc; text-align:right}
+.rp_general .name{margin-right:5px; font-weight:bold; vertical-align:middle}
+.rp_general .date{margin-right:5px}
+.rp_general p{margin-top:10px}
+.commentWrite{text-align:right}
+
+.rp_secret{padding:10px 0; border-bottom:1px dashed #dcdcdc; text-align:right}
+.rp_secret span{vertical-align:middle}
+.rp_secret .name{margin-right:5px; font-weight:bold;}
+.rp_secret .control{display:block; margin-top:5px}
+.rp_secret .control a{display:inline-block; *display:inline; *zoom:1; padding:0 5px; border:1px solid #dcdcdc; border-radius:3px}
+.rp_secret .control a span{vertical-align:top}
+.rp_secret .control a:hover{text-decoration:none}
+.rp_secret p{margin-top:10px}
+
+.paging a,span{cursor:pointer}
+.article p span{cursor:text}
+.actionTrail a,span{cursor:pointer}
+.counter span{cursor:text}
+.article{padding-top:15px}
+
+#content .searchList{margin-bottom:15px}
+.commentWrite input{width:90px; padding:2px 5px; border:1px solid #dcdcdc; -webkit-border-radius:0; }
+.commentWrite input.submit{cursor:pointer}
+.commentWrite input.checkbox{width:auto; vertical-align:middle}
+
+.commentWrite .secretWrap{margin-bottom:10px}
+.entry-ccl{border-bottom:1px solid #dcdcdC}
+
+.guestWrite textarea{border:1px solid #dcdcdc; width:100%; height:50px; margin-bottom:5px; box-sizing:border-box; margin-top:10px}
+
+.guest_general{padding:10px 0; border-bottom:1px dashed #dcdcdc}
+.guest_admin{padding:10px 0; border-bottom:1px dashed #dcdcdc}
+
+.guestList{border-top:1px dashed #dcdcdc; margin-top:25px}
+.guestList .name{font-weight:bold; margin-right:5px}
+.guestList .date{margin-right:5px}
+.guestList p{margin-top:10px}
+
+.guestWrite{text-align:right}
+.guestWrite input{width:90px; padding:2px 5px; border:1px solid #dcdcdc}
+
+#treeComponent{font:12px/1.4 "¸¼Àº °íµñ", "Malgun Gothic", "³ª´®°íµñ", NanumGothic, "µ¸¿ò", dotum, "Georgia Pro", Arial;}
+
+.trackback{text-align:right; margin-bottom:25px}
+
+.input_homepage input{width:200px}
+
+.searchList h3{margin-bottom:5px; padding-bottom:5px; border-bottom:1px solid #dcdcdc}
+.entry-ccl{padding:10px 0}
+.article img{cursor:pointer;}
+
+#treeComponent table td img{vertical-align:bottom}
+
+.daum_like_wrapper{display:none}
+
+
+/* ¹ÝÀÀÇü ÀÛ¾÷ */
+@media screen and (max-width:1080px) {
+	#container{width:100%; margin:0; overflow:hidden}
+	#header{max-width:100%; margin:0 10px}
+	#sidebar{width:auto; position:relative; float:none; max-width:100%; border-bottom:1px solid #dcdcdc; margin:0 10px}
+	.blogDesc{display:none}
+	.blogImage img{width:115px; position:absolute; top:10px; right:10px}
+	#sidebar{text-align:right}
+	.mainMenu{display:none}
+	.category h3{display:none}
+	.links h3{display:none}
+	#footer{margin:0 10px}
+
+	table.treeComponent dis{display:inline-block}
+	.recentPost, .recentComment{display:none}
+	#content{width:auto; max-width:100%; margin:10px; float:none}
+	
+	.links .linktop{position:absolute; right:77px; top:140px}
+	.links .linktop2{position:absolute; right:27px; top:140px}
+	.links .linkbottom{position:absolute; right:77px; top:190px}
+	.links .linkbottom2{position:absolute; right:27px; top:190px}
+	.links ul li{margin-right:6px}
+	#footer{text-align:center; line-height:20px; height:auto; padding:10px 0}
+	.copy{float:none}
+	.counter{float:none}
+	
+	.imageblock{width:100% !important; height:auto !important;}
+	.imageblock img{width:100% !important; height:auto !important;}
+	
+	.trackback-url{display:block}
+	
+	.article iframe{width:100% !important; height:370px; !important}
+	.file img{width:16px !important}
+	.tx-link{cursor:pointer}
+	
+	.searchList .date{vertical-align:middle}
+	.searchList a{vertical-align:middle; display:inline-block; max-width:70%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; word-wrap:normal;}
+}
